@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root{
+  --Strongcyan: hsl(172, 67%, 45%)
+  --Verydarkcyan: hsl(183, 100%, 15%)
+  --Darkgrayishcyan: hsl(186, 14%, 43%)
+  --Grayishcyan: hsl(184, 14%, 56%)
+  --Lightgrayishcyan: hsl(185, 41%, 84%)
+  --Verylightgrayishcyan: hsl(189, 41%, 97%)
+  --White: hsl(0, 0%, 100%)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    background:  hsl(185, 41%, 84%);
+}
+
+input{
+  font-family: 'Space Mono', monospace;
+}
+
+/* logo */
+.logo {
+  transform: scale(0.7);
+  position: absolute;
+  top: 5%;
+  left: 45%;
+}
+
+
+.main-con {
+  display: flex;
+  background: #fff;
+  width: 60%;
+  margin: auto auto;
+  margin-top: 132px;
+  border-radius: 20px;
+}
+
+/* start left-con */
+
+.left-con {
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.left-con h3 {
+  color: hsl(184, 14%, 56%);
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.inbill {
+  background-image: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  text-align: right;
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+}
+
+.left-con .bills label {
+  margin: 30px;
+  color: hsl(184, 14%, 56%);
+}
+
+.left-con .bills input {
+  padding: 10px;
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.left-con .bills input:hover {
+  border: 1px solid hsl(172, 67%, 45%);
+}
+
+.left-con .custom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.left-con .custom .btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background: hsl(183, 100%, 15%);
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Space Mono', monospace;
+  cursor: pointer;
+}
+
+.left-con .custom input[type=text]{
+  width: 88px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: #fff;
+  color: hsl(184, 14%, 56%);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.left-con .custom input[type=text]:hover{
+  border: 1px solid hsl(172, 67%, 45%);
+}
+
+.left-con .custom .btn:hover{
+  background: hsl(172, 67%, 45%) ;
+  color: hsl(183, 100%, 15%);
+}
+.act{
+  background:hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.act:hover {
+  color: white;
+}
+
+.pepole {
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 0;
+  padding: 10px 0;
+  border: 1px solid white;
+  background-image: url(images/icon-person.svg);
+  background-repeat: no-repeat;
+  text-align: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* left-con end */
+
+/* start right-con */
+
+.right-con {
+  width: 100%;
+  background: hsl(183, 100%, 15%);
+  border-radius: 20px;
+  margin: 30px 30px 30px 0;
+}
+
+.right-con .tip {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 40px 30px 40px;
+}
+
+.right-con .tip h3 {
+  margin: 0;
+  color: #fff;
+}
+
+.right-con .tip h1 {
+  margin: 0;
+  color: hsl(172, 67%, 45%);
+}
+
+.right-con .tip h3 span {
+  color: hsl(184, 14%, 56%);
+}
+
+
+.right-con .total {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 40px;
+}
+
+.right-con .total h3 {
+  margin: 0;
+  color: #fff;
+}
+
+.right-con .total h1 {
+  margin: 0;
+  color: hsl(172, 67%, 45%);
+}
+
+.right-con .total h3 span {
+  color: hsl(184, 14%, 56%);
+}
+
+.right-con .ree {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border: none;
+  width: 80%;
+  margin: 100px 0px 40px 40px;
+  padding: 10px;
+  font-family: 'Space Mono',sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.right-con .ree:hover {
+  background: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
